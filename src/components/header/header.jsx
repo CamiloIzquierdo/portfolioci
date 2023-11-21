@@ -1,6 +1,7 @@
 export const Header = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center bg-black md:bg-[url()] bg-[url(header.jpg)] bg-center bg-cover w-full h-screen lg:h-full">
+    <div className="flex flex-col md:flex-row relative items-center justify-center bg-black md:bg-[url()] bg-[url(/header.jgp)] bg-center bg-cover w-full h-screen lg:h-full">
+      <img src="/header.jpg" className="absolute md:hidden" alt="" />
       <div className="md:w-1/3 z-20 w-full flex md:h-fit justify-center flex-col md:items-start items-center xl:px-10 px-5 bg-white md:bg-transparent bg-opacity-50 h-full">
         <div className="flex py-8 flex-col">
           <div className="flex">
