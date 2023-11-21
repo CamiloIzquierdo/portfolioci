@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #262528;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #262528;
+}
+
+.my-slider .slick-track {
+    display: flex;
+    gap: 5rem; /* Ajusta el valor según el espacio deseado entre las imágenes */
+;
+}
+
+@media screen and (max-width: 1280px) {
+    .my-slider .slick-track {
+        gap: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .my-slider .slick-track {
+        gap: 15px
+    }
+}
+
+foto:hover {
+    filter: grayscale(0%);
+}
