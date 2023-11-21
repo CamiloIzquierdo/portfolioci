@@ -15,20 +15,23 @@ export const Header = () => {
             DEVELOPER
           </span>
         </div>
-        <div className="flex flex-col gap-2 justify-center items-center">
-          <p className="text-black md:text-white text-xs xl:text-base font-bold play lg:max-w-sm text-justify">
-            Camilo Izquierdo programador front-end de 23 años. Especializado en
-            lenguajes como React JS, Javascript, CSS, Tailwind, Directus,
-            Firebase, MongoDB y TSX. Ha tenido algunas contribuciones exitosas
-            como freelancer, pero su verdadero objetivo es unirse a una empresa
-            y formar parte de un equipo de trabajo en el que pueda seguir
-            creciendo profesionalmente. Le apasiona la tecnología y siempre esta
-            buscando nuevos desafíos para superarse a sí mismo. Si estás
-            interesado en conocer más sobre el, no dudes en contactarlo.
+        <div className="flex flex-col gap-12 justify-center items-center">
+          <p className="text-black md:text-white lg:text-xs xl:text-base font-bold play lg:max-w-sm text-justify">
+            Camilo Izquierdo programador front-end de 23 años, actualmente vive
+            en Barcelona. Especializado en lenguajes como React JS, Javascript,
+            CSS, Tailwind, Directus, Firebase, MongoDB y TSX. Ha tenido algunas
+            contribuciones exitosas como freelancer, pero su verdadero objetivo
+            es unirse a una empresa y formar parte de un equipo de trabajo en el
+            que pueda seguir creciendo profesionalmente. Le apasiona la
+            tecnología y siempre esta buscando nuevos desafíos para superarse a
+            sí mismo. Si estás interesado en conocer más sobre el, no dudes en
+            contactarlo.
           </p>
           <div className="bg-white w-fit md:w-fit justify-center items-center flex flex-col">
-            <img src="/codigo.png" width={150} alt="" />
-            <span className="text-justify">3 2 1 3 4 1 6 8 5 1 0 0</span>
+            <a href="https://wa.me/34651701297">
+              <img src="/codigo.png" width={150} alt="" />
+              <span className="text-justify">3 4 6 5 1 7 0 1 2 9 7</span>
+            </a>
           </div>
         </div>
       </div>
